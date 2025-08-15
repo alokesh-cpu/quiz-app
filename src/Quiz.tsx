@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Question, QuizState, QuizResult, QuizSet } from './types';
+import React, { useState } from 'react';
+import { QuizState, QuizResult, QuizSet } from './types';
 
 interface QuizProps {
   quizSet: QuizSet;
