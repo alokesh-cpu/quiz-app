@@ -40,7 +40,7 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStartQuiz, onViewResults, h
           <div className="quiz-info">
             <div className="info-item">
               <span className="info-icon">📚</span>
-              <span className="info-text">25 Questions</span>
+              <span className="info-text">20 Questions</span>
             </div>
             <div className="info-item">
               <span className="info-icon">🎯</span>

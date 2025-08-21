@@ -31,10 +31,10 @@ export const quizData2: Question[] = [
   },
   {
     id: 5,
-    question: "What is the first book in the Harry Potter series?",
-    options: ["The Chamber of Secrets", "The Philosopher’s Stone", "The Goblet of Fire", "The Prisoner of Azkaban"],
+    question: "Which genre of music is most associated with Cuba?",
+    options: ["Reggaeton", "Salsa", "Flamenco", "Calypso"],
     correctAnswer: 1,
-    category: "Literature"
+    category: "Music"
   },
   {
     id: 6,
@@ -45,135 +45,100 @@ export const quizData2: Question[] = [
   },
   {
     id: 7,
-    question: "What is the fastest land animal?",
-    options: ["Lion", "Cheetah", "Leopard", "Tiger"],
-    correctAnswer: 1,
-    category: "Animals"
-  },
-  {
-    id: 8,
-    question: "Which ancient wonder of the world was located in Alexandria?",
-    options: ["Hanging Gardens", "Lighthouse of Alexandria", "Colossus of Rhodes", "Statue of Zeus"],
-    correctAnswer: 1,
-    category: "History"
-  },
-  {
-    id: 9,
     question: "What is the smallest unit of matter?",
     options: ["Molecule", "Atom", "Electron", "Proton"],
     correctAnswer: 1,
     category: "Science"
   },
   {
-    id: 10,
+    id: 8,
     question: "Which programming language was developed by Guido van Rossum?",
     options: ["Java", "C++", "Python", "JavaScript"],
     correctAnswer: 2,
     category: "Technology"
   },
   {
-    id: 11,
+    id: 9,
     question: "In which continent is the Sahara Desert located?",
     options: ["Asia", "Africa", "Australia", "South America"],
     correctAnswer: 1,
     category: "Geography"
   },
   {
-    id: 12,
-    question: "Who was the first person to walk on the moon?",
-    options: ["Buzz Aldrin", "Neil Armstrong", "John Glenn", "Alan Shepard"],
-    correctAnswer: 1,
-    category: "History"
-  },
-  {
-    id: 13,
-    question: "Which artist cut off his own ear?",
-    options: ["Pablo Picasso", "Claude Monet", "Vincent van Gogh", "Salvador Dalí"],
-    correctAnswer: 2,
-    category: "Art"
-  },
-  {
-    id: 14,
-    question: "What is the largest mammal in the ocean?",
-    options: ["Great White Shark", "Blue Whale", "Orca", "Sperm Whale"],
-    correctAnswer: 1,
-    category: "Animals"
-  },
-  {
-    id: 15,
+    id: 10,
     question: "Which country gifted the Statue of Liberty to the United States?",
     options: ["Britain", "Spain", "France", "Italy"],
     correctAnswer: 2,
     category: "History"
   },
   {
-    id: 16,
-    question: "What does 'HTTP' stand for?",
-    options: ["HyperText Transfer Protocol", "High Transfer Text Protocol", "HyperText Transmission Protocol", "High Tech Transfer Protocol"],
-    correctAnswer: 0,
-    category: "Technology"
-  },
-  {
-    id: 17,
+    id: 11,
     question: "Which is the longest river in the world?",
     options: ["Amazon", "Nile", "Mississippi", "Yangtze"],
     correctAnswer: 1,
     category: "Geography"
   },
   {
-    id: 18,
-    question: "What is the chemical formula for water?",
-    options: ["CO2", "H2O", "O2", "NaCl"],
-    correctAnswer: 1,
-    category: "Science"
-  },
-  {
-    id: 19,
-    question: "Which bird is known for its ability to mimic human speech?",
-    options: ["Eagle", "Parrot", "Crow", "Owl"],
-    correctAnswer: 1,
-    category: "Animals"
-  },
-  {
-    id: 20,
-    question: "Who wrote the novel '1984'?",
-    options: ["Aldous Huxley", "Ray Bradbury", "George Orwell", "Isaac Asimov"],
-    correctAnswer: 2,
-    category: "Literature"
-  },
-  {
-    id: 21,
+    id: 12,
     question: "Which element has the chemical symbol 'Fe'?",
     options: ["Iron", "Fluorine", "Francium", "Fermium"],
     correctAnswer: 0,
     category: "Science"
   },
   {
-    id: 22,
-    question: "In which city is the famous Colosseum located?",
-    options: ["Athens", "Rome", "Cairo", "Istanbul"],
-    correctAnswer: 1,
-    category: "History"
-  },
-  {
-    id: 23,
-    question: "What is the largest planet in our solar system?",
-    options: ["Saturn", "Jupiter", "Neptune", "Uranus"],
-    correctAnswer: 1,
-    category: "Science"
-  },
-  {
-    id: 24,
-    question: "Which company developed the iPhone?",
-    options: ["Samsung", "Google", "Apple", "Microsoft"],
-    correctAnswer: 2,
-    category: "Technology"
-  },
-  {
-    id: 25,
+    id: 13,
     question: "What is the highest mountain peak in the world?",
     options: ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
     correctAnswer: 1,
     category: "Geography"
+  },
+   {
+    id: 14,
+    question: "Which Renaissance artist was also a pioneering anatomist?",
+    options: ["Raphael", "Leonardo da Vinci", "Botticelli", "Titian"],
+    correctAnswer: 1,
+    category: "Art"
+  },
+  {
+    id: 15,
+    question: "What is the second most abundant element in the Earth's crust?",
+    options: ["Silicon", "Iron", "Aluminum", "Oxygen"],
+    correctAnswer: 0,
+    category: "Science"
+  },
+  {
+    id: 16,
+    question: "Which element has the highest melting point?",
+    options: ["Carbon", "Tungsten", "Osmium", "Platinum"],
+    correctAnswer: 1,
+    category: "Science"
+  },
+  {
+    id: 17,
+    question: "Which country has the highest number of time zones?",
+    options: ["USA", "Russia", "France ", "China"],
+    correctAnswer: 2,
+    category: "Geography"
+  },
+  {
+    id: 18,
+    question: "Which mountain range separates Europe from Asia?",
+    options: ["Alps", "Carpathians", "Ural", "Caucasus"],
+    correctAnswer: 2,
+    category: "Geography"
+  },
+   {
+    id: 19,
+    question: "Which empire was ruled by Suleiman the Magnificent?",
+    options: ["Persian Empire", "Ottoman Empire", "Byzantine Empire", "Mughal Empire"],
+    correctAnswer: 1,
+    category: "History"
+  },
+  {
+    id: 20,
+    question: "Who was the first woman to win a Nobel Prize?",
+    options: ["Marie Curie", "Dorothy Hodgkin", "Rosalind Franklin", "Lise Meitner"],
+    correctAnswer: 0,
+    category: "History"
   }
 ];

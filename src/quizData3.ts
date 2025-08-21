@@ -24,17 +24,17 @@ export const quizData3: Question[] = [
   },
   {
     id: 4,
-    question: "What does 'AI' stand for in technology?",
-    options: ["Automated Intelligence", "Artificial Intelligence", "Advanced Integration", "Automated Integration"],
+    question: "Which instrument is commonly used in Scottish folk music",
+    options: ["Banjo", "Bagpipes", "Accordion", "Sitar"],
     correctAnswer: 1,
-    category: "Technology"
+    category: "Music"
   },
   {
     id: 5,
-    question: "Which empire was ruled by Julius Caesar?",
-    options: ["Greek Empire", "Roman Empire", "Byzantine Empire", "Persian Empire"],
-    correctAnswer: 1,
-    category: "History"
+    question: "Which Latin American dance is closely associated with Argentina?",
+    options: ["Salsa", "Merengue", "Tango", "Cumbia"],
+    correctAnswer: 2,
+    category: "Music"
   },
   {
     id: 6,
@@ -45,10 +45,10 @@ export const quizData3: Question[] = [
   },
   {
     id: 7,
-    question: "Which is the smallest country in the world by area?",
-    options: ["Monaco", "Nauru", "Vatican City", "San Marino"],
-    correctAnswer: 2,
-    category: "Geography"
+    question: "Which rock band was inducted into the Rock and Roll Hall of Fame in 1988 as one of the first groups?",
+    options: ["The Rolling Stones", "The Beatles", "Led Zeppelin", "The Beach Boys"],
+    correctAnswer: 1,
+    category: "Music"
   },
   {
     id: 8,
@@ -59,10 +59,10 @@ export const quizData3: Question[] = [
   },
   {
     id: 9,
-    question: "Which social media platform was founded by Mark Zuckerberg?",
-    options: ["Twitter", "Instagram", "Facebook", "LinkedIn"],
-    correctAnswer: 2,
-    category: "Technology"
+    question: "The Great Wall of China was primarily built to protect against invasions from which group?",
+    options: ["Mongols", "Japanese", "Russians", "Persians"],
+    correctAnswer: 0 ,
+    category: "History"
   },
   {
     id: 10,
@@ -87,93 +87,58 @@ export const quizData3: Question[] = [
   },
   {
     id: 13,
-    question: "Which war was fought between 1939 and 1945?",
-    options: ["World War I", "World War II", "Korean War", "Vietnam War"],
-    correctAnswer: 1,
+    question: "Which ancient civilization is credited with developing democracy?",
+    options: ["Romans", "Egyptians", "Greeks", "Persians"],
+    correctAnswer: 2,
     category: "History"
   },
   {
     id: 14,
-    question: "What is the largest type of penguin?",
-    options: ["King Penguin", "Emperor Penguin", "Adelie Penguin", "Gentoo Penguin"],
-    correctAnswer: 1,
-    category: "Animals"
-  },
-  {
-    id: 15,
     question: "Which artist painted 'Starry Night'?",
     options: ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"],
     correctAnswer: 1,
     category: "Art"
   },
   {
-    id: 16,
+    id: 15,
     question: "What is the most spoken language in the world?",
     options: ["English", "Spanish", "Mandarin Chinese", "Hindi"],
-    correctAnswer: 2,
+    correctAnswer: 0,
     category: "Geography"
   },
   {
-    id: 17,
+    id: 16,
     question: "Which technology company created the Android operating system?",
     options: ["Apple", "Microsoft", "Google", "Samsung"],
     correctAnswer: 2,
     category: "Technology"
   },
   {
-    id: 18,
+    id: 17,
     question: "What is the hardest natural substance on Earth?",
     options: ["Gold", "Iron", "Diamond", "Platinum"],
     correctAnswer: 2,
     category: "Science"
   },
   {
-    id: 19,
-    question: "Which ancient civilization built Machu Picchu?",
-    options: ["Aztec", "Maya", "Inca", "Olmec"],
-    correctAnswer: 2,
-    category: "History"
-  },
-  {
-    id: 20,
+    id: 18,
     question: "What type of animal is a Komodo dragon?",
     options: ["Snake", "Lizard", "Crocodile", "Turtle"],
     correctAnswer: 1,
     category: "Animals"
   },
   {
-    id: 21,
-    question: "Who painted the ceiling of the Sistine Chapel?",
-    options: ["Leonardo da Vinci", "Raphael", "Michelangelo", "Donatello"],
-    correctAnswer: 2,
-    category: "Art"
-  },
-  {
-    id: 22,
+    id: 19,
     question: "What is the boiling point of water at sea level?",
     options: ["90°C", "95°C", "100°C", "105°C"],
     correctAnswer: 2,
     category: "Science"
   },
   {
-    id: 23,
+    id: 20,
     question: "Which continent has the most countries?",
     options: ["Asia", "Europe", "Africa", "South America"],
     correctAnswer: 2,
     category: "Geography"
-  },
-  {
-    id: 24,
-    question: "What does 'WWW' stand for?",
-    options: ["World Wide Web", "World Web Wide", "Wide World Web", "Web World Wide"],
-    correctAnswer: 0,
-    category: "Technology"
-  },
-  {
-    id: 25,
-    question: "Who was the first woman to win a Nobel Prize?",
-    options: ["Marie Curie", "Dorothy Hodgkin", "Rosalind Franklin", "Lise Meitner"],
-    correctAnswer: 0,
-    category: "History"
   }
 ];

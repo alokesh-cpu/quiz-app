@@ -141,42 +141,5 @@ export const quizData: Question[] = [
     options: ["Raphael", "Leonardo da Vinci", "Botticelli", "Titian"],
     correctAnswer: 1,
     category: "Art"
-  },
-  {
-    id: 21,
-    question: "What is the second most abundant element in the Earth's crust?",
-    options: ["Silicon", "Iron", "Aluminum", "Oxygen"],
-    correctAnswer: 0,
-    category: "Science"
-  },
-  {
-    id: 22,
-    question: "Which element has the highest melting point?",
-    options: ["Carbon", "Tungsten", "Osmium", "Platinum"],
-    correctAnswer: 1,
-    category: "Science"
-  },
-  {
-    id: 23,
-    question: "Which country has the highest number of time zones?",
-    options: ["USA", "Russia", "France ", "China"],
-    correctAnswer: 2,
-    category: "Geography"
-  },
-  {
-    id: 24,
-    question: "Which mountain range separates Europe from Asia?",
-    options: ["Alps", "Carpathians", "Ural", "Caucasus"],
-    correctAnswer: 2,
-    category: "Geography"
-  },
-   {
-    id: 25,
-    question: "Which empire was ruled by Suleiman the Magnificent?",
-    options: ["Persian Empire", "Ottoman Empire", "Byzantine Empire", "Mughal Empire"],
-    correctAnswer: 1,
-    category: "History"
   }
-
- 
 ];
