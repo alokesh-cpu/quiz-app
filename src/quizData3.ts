@@ -3,22 +3,22 @@ import { Question } from './types';
 export const quizData3: Question[] = [
   {
     id: 1,
-    question: "Which vitamin is produced when skin is exposed to sunlight?",
-    options: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
-    correctAnswer: 3,
-    category: "Science"
+    question: "What was the name of Bob Marley's backing band?",
+    options: ["The Singers", "The Wailers", "The Chanters", "The Crooners"],
+    correctAnswer: 1,
+    category: "Music"
   },
   {
     id: 2,
-    question: "What is the currency of Japan?",
-    options: ["Yuan", "Won", "Yen", "Rupee"],
-    correctAnswer: 2,
-    category: "Geography"
+    question: "In computing, which port is generally used for HTTP connections?",
+    options: ["80", "120", "10", "50"],
+    correctAnswer: 0,
+    category: "Technology"
   },
   {
     id: 3,
-    question: "Who composed 'The Four Seasons'?",
-    options: ["Mozart", "Beethoven", "Vivaldi", "Bach"],
+    question: "On Ordinance Survey maps, a blue triangle denotes what?",
+    options: ["Pub", "Triangulation Point", "Youth Hostel", "Bus Stop"],
     correctAnswer: 2,
     category: "Art"
   },
@@ -31,114 +31,114 @@ export const quizData3: Question[] = [
   },
   {
     id: 5,
-    question: "Which Latin American dance is closely associated with Argentina?",
-    options: ["Salsa", "Merengue", "Tango", "Cumbia"],
+    question: "Who wrote the 1897 novel The War of the Worlds?",
+    options: ["Joseph Conrad", "Charles Dickens", "HG Wells", "William Morris"],
     correctAnswer: 2,
-    category: "Music"
+    category: "Literature"
   },
   {
     id: 6,
-    question: "What is a group of whales called?",
-    options: ["Herd", "Pack", "Pod", "Flock"],
-    correctAnswer: 2,
+    question: "What animal does the adjective Bovine refer to?",
+    options: ["Dog", "Cow", "Pig", "Cat"],
+    correctAnswer: 1,
     category: "Animals"
   },
   {
     id: 7,
-    question: "Which rock band was inducted into the Rock and Roll Hall of Fame in 1988 as one of the first groups?",
-    options: ["The Rolling Stones", "The Beatles", "Led Zeppelin", "The Beach Boys"],
+    question: "In which country was the 1970 football World Cup held?",
+    options: ["Mexico", "West Germany", "Spain", "Argentina"],
+    correctAnswer: 0,
+    category: "Sports"
+  },
+  {
+    id: 8,
+    question: "Which song starts 'Big wheels keep on turning'?",
+    options: ["Midnight Train to Georgia", "Dani California", "Sweet Home Alabama", "Hotel California"],
+    correctAnswer: 2,
+    category: "Music"
+  },
+  {
+    id: 9,
+    question: "In US politics, for what does the P in POTUS stand?",
+    options: ["President", "Place", "Pennsylvania", "Post"],
+    correctAnswer: 0 ,
+    category: "Geography"
+  },
+  {
+    id: 10,
+    question: "Who released the 1977 song You Took The Words Right Out of My Mouth?",
+    options: ["Prince", "Elton John", "Rick Astley", "Meatloaf "],
+    correctAnswer: 3,
+    category: "Music"
+  },
+  {
+    id: 11,
+    question: "Can you tell me which song by The Doors features the phrase 'We want the world and we want it now'?",
+    options: ["When the Music’s Over", "People Are Strange", "Moonlight Drive", "You're Lost Little Girl"],
+    correctAnswer: 0,
+    category: "Music"
+  },
+  {
+    id: 12,
+    question: "Which guitarist is famous for playing a Fender Stratocaster upside down?",
+    options: ["Eric Clapton", " Jimi Hendrix", "Jimmy Page", "Pete Townshend"],
     correctAnswer: 1,
     category: "Music"
   },
   {
-    id: 8,
-    question: "What is the study of earthquakes called?",
-    options: ["Geology", "Seismology", "Volcanology", "Meteorology"],
-    correctAnswer: 1,
-    category: "Science"
-  },
-  {
-    id: 9,
-    question: "The Great Wall of China was primarily built to protect against invasions from which group?",
-    options: ["Mongols", "Japanese", "Russians", "Persians"],
-    correctAnswer: 0 ,
-    category: "History"
-  },
-  {
-    id: 10,
-    question: "Who wrote 'Pride and Prejudice'?",
-    options: ["Charlotte Brontë", "Jane Austen", "Emily Dickinson", "Virginia Woolf"],
-    correctAnswer: 1,
-    category: "Literature"
-  },
-  {
-    id: 11,
-    question: "Which organ in the human body produces insulin?",
-    options: ["Liver", "Kidney", "Pancreas", "Heart"],
-    correctAnswer: 2,
-    category: "Science"
-  },
-  {
-    id: 12,
-    question: "What is the capital of Canada?",
-    options: ["Toronto", "Vancouver", "Montreal", "Ottawa"],
-    correctAnswer: 3,
-    category: "Geography"
-  },
-  {
     id: 13,
-    question: "Which ancient civilization is credited with developing democracy?",
-    options: ["Romans", "Egyptians", "Greeks", "Persians"],
-    correctAnswer: 2,
+    question: "What is the origin of the word “salary”?",
+    options: ["Latin", "Greek", "French", "Arabic"],
+    correctAnswer: 0,
     category: "History"
   },
   {
     id: 14,
-    question: "Which artist painted 'Starry Night'?",
-    options: ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"],
+    question: "Which language does the word “robot” come from?",
+    options: ["Russian", "Czech", "German", "Japanese"],
     correctAnswer: 1,
-    category: "Art"
+    category: "History"
   },
   {
     id: 15,
-    question: "What is the most spoken language in the world?",
-    options: ["English", "Spanish", "Mandarin Chinese", "Hindi"],
-    correctAnswer: 0,
-    category: "Geography"
+    question: "What does the word “quarantine” originally mean?",
+    options: ["Isolation", "Forty days", "Disease control", "Ship inspection"],
+    correctAnswer: 1,
+    category: "History"
   },
   {
     id: 16,
-    question: "Which technology company created the Android operating system?",
-    options: ["Apple", "Microsoft", "Google", "Samsung"],
-    correctAnswer: 2,
-    category: "Technology"
+    question: "The word “candidate” comes from Latin and originally referred to someone who was:",
+    options: ["Chosen by gods", "Wearing white", "From noble birth", "A warrior"],
+    correctAnswer: 1,
+    category: "History"
   },
   {
     id: 17,
-    question: "What is the hardest natural substance on Earth?",
-    options: ["Gold", "Iron", "Diamond", "Platinum"],
-    correctAnswer: 2,
-    category: "Science"
+    question: " Which word comes from the name of a Roman god of doorways and transitions?",
+    options: ["January", "Portal", "Exit", "Passage"],
+    correctAnswer: 0,
+    category: "History"
   },
   {
     id: 18,
-    question: "What type of animal is a Komodo dragon?",
-    options: ["Snake", "Lizard", "Crocodile", "Turtle"],
+    question: "WThe word “nightmare” originally referred to:",
+    options: ["A scary dream", "A demon sitting on your chest", "A ghost", "A sleep disorder"],
     correctAnswer: 1,
-    category: "Animals"
+    category: "History"
   },
   {
     id: 19,
-    question: "What is the boiling point of water at sea level?",
-    options: ["90°C", "95°C", "100°C", "105°C"],
+    question: "The word “trivia” comes from Latin and originally meant:?",
+    options: ["Useless facts", "Three roads", "1Small talk", "1Public knowledge"],
     correctAnswer: 2,
-    category: "Science"
+    category: "History"
   },
   {
     id: 20,
-    question: "Which continent has the most countries?",
-    options: ["Asia", "Europe", "Africa", "South America"],
-    correctAnswer: 2,
-    category: "Geography"
+    question: "What is the origin of the word “pandemic”?",
+    options: ["Greek", "Latin", "Sanskrit", "French"],
+    correctAnswer: 0,
+    category: "History"
   }
 ];
