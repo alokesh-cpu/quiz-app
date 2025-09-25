@@ -19,7 +19,7 @@ export const quizData3: Question[] = [
     id: 3,
     question: "On Ordinance Survey maps, a blue triangle denotes what?",
     options: ["Pub", "Triangulation Point", "Youth Hostel", "Bus Stop"],
-    correctAnswer: 2,
+    correctAnswer: 1,
     category: "Art"
   },
   {
@@ -122,7 +122,7 @@ export const quizData3: Question[] = [
   },
   {
     id: 18,
-    question: "WThe word “nightmare” originally referred to:",
+    question: "The word “nightmare” originally referred to:",
     options: ["A scary dream", "A demon sitting on your chest", "A ghost", "A sleep disorder"],
     correctAnswer: 1,
     category: "History"
@@ -130,7 +130,7 @@ export const quizData3: Question[] = [
   {
     id: 19,
     question: "The word “trivia” comes from Latin and originally meant:?",
-    options: ["Useless facts", "Three roads", "1Small talk", "1Public knowledge"],
+    options: ["Useless facts", "Three roads", "Small talk", "Public knowledge"],
     correctAnswer: 2,
     category: "History"
   },
