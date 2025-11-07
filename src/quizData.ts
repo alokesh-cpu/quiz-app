@@ -3,66 +3,66 @@ import { Question } from './types';
 export const quizData: Question[] = [
   {
     id: 1,
-    question: "Which is the largest desert in the world?",
-    options: ["Sahara", "Arabian", "Gobi", "Antarctic "],
+    question: "Which Indian city was recently declared a UNESCO Creative City of Gastronomy?",
+    options: ["Hyderabad", "Kochi", "Varanasi", "Lucknow "],
     correctAnswer: 3,
-    category: "Geography"
+    category: "World Affairs"
   },
   {
     id: 2,
-    question: "Which river flows through Paris?",
-    options: ["Thames", "Seine ", "Danube", "Rhine"],
+    question: "Who won the New York City mayoral election in 2025?",
+    options: ["Andrew Cuomo", "Zohran Mamdani ", "Eric Adams", "Alexandria Ocasio-Cortez"],
     correctAnswer: 1,
-    category: "Geography"
+    category: "World Affairs"
   },
   {
     id: 3,
-    question: "Mount Kilimanjaro is located in which country?",
-    options: ["Kenya", "Tanzania ", "Ethiopia", "Uganda"],
+    question: "Where was the ASEAN Summit 2025 held?",
+    options: ["Vietnam", "Malaysia ", "Singapore", "Thailand"],
     correctAnswer: 1,
-    category: "Geography"
+    category: "World Affairs"
   },
   {
     id: 4,
-    question: "What is the chemical symbol for gold?",
-    options: ["Au", "Ag", "Go", "Gd"],
-    correctAnswer: 0,
-    category: "Science"
+    question: "What is the estimated finance gap for climate adaptation in developing nations according to UNEP 2025?",
+    options: ["$100–150 billion", "$200–250 billion", "$310–365 billion", "$400–450 billion"],
+    correctAnswer: 2,
+    category: "World Affairs"
   },
  {
     id: 5,
-    question: "Which planet has the most moons?",
-    options: ["Earth", "Jupiter", "Mars", "Saturn"],
-    correctAnswer: 3,
-    category: "Science"
+    question: " Which country hosted the 2025 United Nations Climate Change Conference (COP30)?",
+    options: ["Germany", "Brazil", "India", "Australia"],
+    correctAnswer: 1,
+    category: "World Affairs"
   },
   {
     id: 6,
-    question: "What part of the cell contains genetic material?",
-    options: ["Cytoplasm", "Nucleus", "Ribosome", "Mitochondria"],
-    correctAnswer: 1,
-    category: "Science"
+    question: "Which country announced a nationwide ban on single-use plastics starting November 2025?",
+    options: ["France", "Japan", "Canada", "Germany"],
+    correctAnswer: 0,
+    category: "World Affairs"
   },
   {
     id: 7,
-    question: "Which animal is the largest mammal?",
-    options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    question: " Which Caribbean country declared independence from the British monarchy in 2025?",
+    options: ["Jamaica", "Barbados", "Grenada", "Saint Kitts and Nevis"],
     correctAnswer: 1,
-    category: "Animals"
+    category: "World Affairs"
   },
    {
     id: 8,
-    question: "What is a group of lions called?",
-    options: ["Herd", "Pack", "Pride", "Flock"],
+    question: " Which country launched the nuclear-powered underwater drone “Poseidon”?",
+    options: ["USA", "China", "Russia", "North Korea"],
     correctAnswer: 2,
-    category: "Animals"
+    category: "World Affairs"
   },
   {
     id: 9,
-    question: "Which programming language is known as the 'language of the web'?",
-    options: ["Python", "Java", "JavaScript", "C++"],
+    question: "What major US tech company pledged a £2 billion investment into UK AI startups in 2025?",
+    options: ["Google", "Microsoft", "Nvidia", "Amazon"],
     correctAnswer: 2,
-    category: "Technology"
+    category: "World Affairs"
   },
  {
     id: 10,
@@ -70,76 +70,6 @@ export const quizData: Question[] = [
     options: ["Creeper", "Trojan", "Worm", "Blaster"],
     correctAnswer: 0,
     category: "Technology"
-  },
-  {
-    id: 11,
-    question: "In which year did World War II end?",
-    options: ["1944", "1945", "1946", "1947"],
-    correctAnswer: 1,
-    category: "History"
-  },
-  {
-    id: 12,
-    question: "The Berlin Wall fell in which year?",
-    options: ["1987", "1989", "1991", "1993"],
-    correctAnswer: 1,
-    category: "History"
-  },
- 
-  {
-    id: 13,
-    question: "What is the smallest country in the world?",
-    options: ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
-    correctAnswer: 1,
-    category: "Geography"
-  },
-  {
-    id: 14,
-    question: "Who was the first female Prime Minister of a Muslim-majority country?",
-    options: ["Indira Gandhi", "Benazir Bhutto", "San Marin", "Khaleda Zia"],
-    correctAnswer: 1,
-    category: "History"
-  },
-  {
-    id: 15,
-    question: "Which treaty ended World War I?",
-    options: ["Treaty of Versailles", "Treaty of Tordesillas", "Treaty of Paris", "Treaty of Ghent"],
-    correctAnswer: 0,
-    category: "History"
-  },
-  {
-    id: 16,
-    question: "Which algorithm is used in Bitcoin mining?",
-    options: ["SHA-256", "MD5", "RSA", "AES"],
-    correctAnswer: 0,
-    category: "Technology"
-  },
- {
-    id: 17,
-    question: "Which animal has the largest eyes in the animal kingdom?",
-    options: ["Owl", "Giant Squid", "Whale Shark", "Elephant"],
-    correctAnswer: 1,
-    category: "Animals"
-  },
-  {
-    id: 18,
-    question: "Which mammal lays eggs?",
-    options: ["Platypus", "Kangaroo", "Koala", "Armadillo"],
-    correctAnswer: 0,
-    category: "Animals"
-  },
-   {
-    id: 19,
-    question: "Which species of bird is known to migrate the longest distance annually?",
-    options: ["Arctic Tern", "Albatross", "Swallow", "Stork"],
-    correctAnswer: 0,
-    category: "Animals"
-  },
-   {
-    id: 20,
-    question: "Which Renaissance artist was also a pioneering anatomist?",
-    options: ["Raphael", "Leonardo da Vinci", "Botticelli", "Titian"],
-    correctAnswer: 1,
-    category: "Art"
   }
+  
 ];
