@@ -66,10 +66,10 @@ export const quizData: Question[] = [
   },
  {
     id: 10,
-    question: "What is the name of the first computer virus?",
-    options: ["Creeper", "Trojan", "Worm", "Blaster"],
+    question: " In economics, what is the name of the measure of income inequality in a population?",
+    options: ["Lorenz Function", "Gini Coefficient", "Entropy Measure", "Atkinson Index"],
     correctAnswer: 0,
-    category: "Technology"
+    category: "Economics"
   }
   
 ];
