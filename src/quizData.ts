@@ -68,7 +68,7 @@ export const quizData: Question[] = [
     id: 10,
     question: " In economics, what is the name of the measure of income inequality in a population?",
     options: ["Lorenz Function", "Gini Coefficient", "Entropy Measure", "Atkinson Index"],
-    correctAnswer: 0,
+    correctAnswer: 1,
     category: "Economics"
   }
   
