@@ -1,7 +1,7 @@
 import { QuizSet } from './types';
-import { quizData } from './quizData';
+import { quizData } from './quizData_bckup';
 import { quizData2 } from './quizData2';
-import { quizData3 } from './quizData3';
+import { quizData3 } from './quizData3_1';
 
 export const quizSets: QuizSet[] = [
   {

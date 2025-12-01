@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Quiz from './Quiz';
 import StartScreen from './StartScreen';
 import QuizSelection from './QuizSelection';
+import QuizUpload from './QuizUpload';
 import Leaderboard from './Leaderboard';
 import QuizSummary from './QuizSummary';
 import { quizSets } from './quizSets';
@@ -17,6 +18,23 @@ function App() {
     currentUserAnswers: undefined,
     selectedQuizSet: undefined,
   });
+
+  const [customQuizSets, setCustomQuizSets] = useState<QuizSet[]>([]);
+  const [allQuizSets, setAllQuizSets] = useState<QuizSet[]>(quizSets);
+
+  // Load custom quiz sets from localStorage
+  useEffect(() => {
+    const savedCustomQuizzes = localStorage.getItem('customQuizSets');
+    if (savedCustomQuizzes) {
+      try {
+        const parsed = JSON.parse(savedCustomQuizzes);
+        setCustomQuizSets(parsed);
+        setAllQuizSets([...quizSets, ...parsed]);
+      } catch (err) {
+        console.error('Error loading custom quizzes:', err);
+      }
+    }
+  }, []);
 
   // Load data from localStorage on component mount
   useEffect(() => {
@@ -50,6 +68,57 @@ function App() {
       ...prev,
       selectedQuizSet: quizSet,
       currentView: 'quiz',
+    }));
+  };
+
+  const handleUploadQuiz = () => {
+    setAppState(prev => ({
+      ...prev,
+      currentView: 'upload',
+    }));
+  };
+
+  const handleQuizUploaded = (quizSet: QuizSet) => {
+    const updatedCustomQuizzes = [...customQuizSets, quizSet];
+    setCustomQuizSets(updatedCustomQuizzes);
+    setAllQuizSets([...quizSets, ...updatedCustomQuizzes]);
+    
+    // Save to localStorage
+    localStorage.setItem('customQuizSets', JSON.stringify(updatedCustomQuizzes));
+    
+    // Return to quiz selection
+    setAppState(prev => ({
+      ...prev,
+      currentView: 'quiz-selection',
+    }));
+  };
+
+  const handleCancelUpload = () => {
+    setAppState(prev => ({
+      ...prev,
+      currentView: 'quiz-selection',
+    }));
+  };
+
+  const handleDeleteQuiz = (quizSetId: string) => {
+    // Only allow deletion of custom quizzes
+    if (!quizSetId.startsWith('custom-')) {
+      return;
+    }
+
+    // Remove from custom quiz sets
+    const updatedCustomQuizzes = customQuizSets.filter(q => q.id !== quizSetId);
+    setCustomQuizSets(updatedCustomQuizzes);
+    setAllQuizSets([...quizSets, ...updatedCustomQuizzes]);
+    
+    // Save to localStorage
+    localStorage.setItem('customQuizSets', JSON.stringify(updatedCustomQuizzes));
+
+    // Also remove any results associated with this quiz
+    const updatedResults = appState.quizResults.filter(r => r.quizSetId !== quizSetId);
+    setAppState(prev => ({
+      ...prev,
+      quizResults: updatedResults,
     }));
   };
 
@@ -107,10 +176,19 @@ function App() {
         
         {appState.currentView === 'quiz-selection' && (
           <QuizSelection
-            quizSets={quizSets}
+            quizSets={allQuizSets}
             participantName={appState.currentParticipantName}
             onSelectQuiz={handleSelectQuiz}
             onBack={handleBackToStart}
+            onUploadQuiz={handleUploadQuiz}
+            onDeleteQuiz={handleDeleteQuiz}
+          />
+        )}
+
+        {appState.currentView === 'upload' && (
+          <QuizUpload
+            onQuizUploaded={handleQuizUploaded}
+            onCancel={handleCancelUpload}
           />
         )}
         

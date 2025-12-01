@@ -1,0 +1,79 @@
+Q: In Home Alone, what is the name of the airport Kevin’s family flies to?
+A: JFK
+B: O’Hare
+C: LaGuardia
+D: Heathrow
+Answer: D
+Category: NA
+
+Q: Which country is credited with starting the tradition of the Christmas tree?
+A: Germany
+B: USA
+C: England
+D: France
+Answer: A
+Category: NA
+
+Q: What is the name of the red-nosed reindeer?
+A: Dasher
+B: Rudolph
+C: Blitzen
+D: Comet
+Answer: B
+Category: NA
+
+Q: Which popular Christmas beverage is also known as “milk punch”?
+A: Hot Chocolate
+B: Eggnog
+C: Mulled Wine
+D: Peppermint Latte
+Answer: B
+Category: NA
+
+Q: In the song “The Twelve Days of Christmas,” how many golden rings are given?
+A: 3
+B: 4
+C: 5
+D: 6
+Answer: C
+Category: NA
+
+Q: Which country is the largest exporter of Christmas trees?
+A: Canada
+B: USA
+C: Norway
+D: Germany
+Answer: A
+Category: NA
+
+Q: What is traditionally hidden inside a Christmas pudding?
+A: A coin
+B: A nut
+C: A candy
+D: A small toy
+Answer: A
+Category: NA
+
+Q: Who wrote the famous Christmas story “A Christmas Carol”?
+A: Charles Dickens
+B: William Shakespeare
+C: Mark Twain
+D: Jane Austen
+Answer: A
+Category: NA
+
+Q: What color are mistletoe berries?
+A: Red
+B: White
+C: Green
+D: Blue
+Answer: B
+Category: NA
+
+Q: Which popular Christmas song was originally written for Thanksgiving?
+A: Silent Night
+B: Jingle Bells
+C: Deck the Halls
+D: Joy to the World
+Answer: B
+Category: NA

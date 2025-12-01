@@ -1,0 +1,80 @@
+Q: Which Christmas movie was the highest-grossing of all time (as of now)?
+A: Home Alone
+B: The Grinch (2018)
+C: Elf
+D: The Polar Express
+Answer: B
+Category: NA
+
+Q: In Home Alone 2: Lost in New York, which hotel does Kevin stay at?
+A: The Plaza Hotel
+B: Waldorf Astoria
+C: Ritz-Carlton
+D: Four Seasons
+Answer: A
+Category: NA
+
+Q: What is the name of the department store in Miracle on 34th Street?
+A: Macy’s
+B: Bloomingdale’s
+C: Saks Fifth Avenue
+D: Gimbels
+Answer: A
+Category: NA
+
+Q: In The Nightmare Before Christmas, what is Jack Skellington’s title?
+A: Pumpkin King
+B: Skeleton King
+C: Ghost King
+D: Bone King
+Answer: A
+Category: NA
+
+Q: Which actor voices the conductor in The Polar Express?
+A: Tom Hanks
+B: Tim Allen
+C: Billy Crystal
+D: Robin Williams
+Answer: A
+Category: NA
+
+Q: In A Christmas Story, what gift does Ralphie desperately want?
+A: A BB gun
+B: A train set
+C: A football
+D: A sled
+Answer: A
+Category: NA
+
+Q: Which Christmas movie features a character named Buddy?
+A: Elf
+B: The Santa Clause
+C: Jingle All the Way
+D: Fred Claus
+Answer: A
+Category: NA
+
+Q: In The Santa Clause, what is the name of Scott Calvin’s son?
+A: Charlie
+B: Max
+C: Billy
+D: Sam
+Answer: A
+Category: NA
+
+Q: Which Christmas movie is set in Whoville?
+A: The Grinch
+B: Elf
+C: Klaus
+D: Arthur Christmas
+Answer: A
+Category: NA
+
+Q: In Love Actually, which British actor plays the Prime Minister?
+A: Colin Firth
+B: Hugh Grant
+C: Alan Rickman
+D: Liam Neeson
+Answer: B
+Category: NA
+

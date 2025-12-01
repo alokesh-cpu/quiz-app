@@ -50,7 +50,7 @@ export interface QuizState {
 
 export interface AppState {
   quizResults: QuizResult[];
-  currentView: 'start' | 'quiz-selection' | 'quiz' | 'results' | 'leaderboard' | 'summary';
+  currentView: 'start' | 'quiz-selection' | 'upload' | 'quiz' | 'results' | 'leaderboard' | 'summary';
   currentParticipantName: string;
   currentQuizResult?: QuizResult;
   currentUserAnswers?: (number | null)[];

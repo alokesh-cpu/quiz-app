@@ -1,0 +1,53 @@
+Q1. In Home Alone, what is the name of the airport Kevin’s family flies to?
+A) JFK
+B) O’Hare
+C) LaGuardia
+D) Heathrow
+Answer: D) Heathrow
+
+Q: What is the capital of France?
+A: London
+B: Paris
+C: Berlin
+D: Madrid
+Answer: B
+Category: Geography
+
+Q: Which planet is known as the Red Planet?
+1. Venus
+2. Mars
+3. Jupiter
+4. Saturn
+Answer: 2
+Category: Science
+
+Q: Who wrote "Romeo and Juliet"?
+A: Charles Dickens
+B: William Shakespeare
+C: Jane Austen
+D: Mark Twain
+Answer: B
+Category: Literature
+
+Q: What is the largest ocean on Earth?
+1. Atlantic Ocean
+2. Indian Ocean
+3. Arctic Ocean
+4. Pacific Ocean
+Answer: 4
+Category: Geography
+
+Q: What is 2 + 2?
+A: 3
+B: 4
+C: 5
+D: 6
+Answer: B
+Category: Mathematics
+
+Format Instructions:
+- Start each question with "Q:" or "Question:"
+- Use "A:", "B:", "C:", "D:" OR "1.", "2.", "3.", "4." for options
+- Specify correct answer with "Answer:" or "Correct:" followed by the letter (A-D) or number (1-4 or 0-3)
+- Optionally add "Category:" or "Topic:" to categorize questions
+- Leave a blank line between questions for better readability

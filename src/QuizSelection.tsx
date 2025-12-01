@@ -6,14 +6,41 @@ interface QuizSelectionProps {
   participantName: string;
   onSelectQuiz: (quizSet: QuizSet) => void;
   onBack: () => void;
+  onUploadQuiz: () => void;
+  onDeleteQuiz?: (quizSetId: string) => void;
 }
 
 const QuizSelection: React.FC<QuizSelectionProps> = ({
   quizSets,
   participantName,
   onSelectQuiz,
-  onBack
+  onBack,
+  onUploadQuiz,
+  onDeleteQuiz
 }) => {
+  const [confirmDelete, setConfirmDelete] = React.useState<string | null>(null);
+
+  const handleDeleteClick = (quizSetId: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    setConfirmDelete(quizSetId);
+  };
+
+  const handleConfirmDelete = (quizSetId: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (onDeleteQuiz) {
+      onDeleteQuiz(quizSetId);
+    }
+    setConfirmDelete(null);
+  };
+
+  const handleCancelDelete = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setConfirmDelete(null);
+  };
+
+  const isCustomQuiz = (quizSetId: string) => {
+    return quizSetId.startsWith('custom-');
+  };
   const getAvatarColor = (name: string) => {
     const colors = [
       '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FECA57',
@@ -47,6 +74,10 @@ const QuizSelection: React.FC<QuizSelectionProps> = ({
         <button className="btn btn-back" onClick={onBack}>
           ← Back
         </button>
+
+        <button className="btn btn-upload" onClick={onUploadQuiz}>
+          📤 Upload Custom Quiz
+        </button>
         
         <div className="participant-welcome">
           <div 
@@ -67,6 +98,36 @@ const QuizSelection: React.FC<QuizSelectionProps> = ({
             className="quiz-set-card"
             style={{ animationDelay: `${index * 0.1}s` }}
           >
+            {isCustomQuiz(quizSet.id) && (
+              <button
+                className="quiz-delete-btn"
+                onClick={(e) => handleDeleteClick(quizSet.id, e)}
+                title="Delete this quiz"
+              >
+                🗑️
+              </button>
+            )}
+
+            {confirmDelete === quizSet.id && (
+              <div className="delete-confirmation">
+                <p className="delete-message">Delete "{quizSet.name}"?</p>
+                <div className="delete-actions">
+                  <button
+                    className="btn btn-confirm-delete"
+                    onClick={(e) => handleConfirmDelete(quizSet.id, e)}
+                  >
+                    Yes, Delete
+                  </button>
+                  <button
+                    className="btn btn-cancel-delete"
+                    onClick={handleCancelDelete}
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            )}
+
             <div className="quiz-set-header">
               <h3 className="quiz-set-title">{quizSet.name}</h3>
               <div className="quiz-set-meta">
